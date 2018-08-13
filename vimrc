@@ -109,8 +109,8 @@ au BufRead,BufNewFile *.coffee setfiletype coffee
 set tags+=~/.vim/tags
 
 if g:use_plugins
-	set rtp+=~/.vim/bundle/vundle
-	call vundle#rc()
+	set rtp+=~/.vim/bundle/Vundle.vim
+	call vundle#begin()
 	Plugin 'gmarik/vundle'
 	Plugin 'majutsushi/tagbar'
 	Plugin 'scrooloose/nerdtree'
