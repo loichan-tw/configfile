@@ -19,7 +19,7 @@ ssh_config，正確的檔名是 ~/.ssh/config
 
 vimrc，正確的檔名是 ~/.vimrc
     可以藉由檔頭的幾個全域變數快速調整此檔案的行為，以及是否需要外掛
-    若要使用外掛程式，必須先安裝 vundle，並進入 vim 執行 :BundleInstall
+    若要使用外掛程式，必須先安裝 vundle，並進入 vim 執行 :PluginInstall
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 w3m_keymap，正確的檔名是 ~/.w3m/keymap
